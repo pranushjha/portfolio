@@ -20,12 +20,13 @@
 
 <!-- Hero Section -->
 <section class="hero">
+    <div class="hero-content">
 
     <!-- Name -->
     <h1>Hi, I'm Pranyush Jha</h1>
 
     <!-- Profile Image -->
-    <img src="profile.jpg" alt="Pranyush Jha" class="profile-img">
+    
 
     <!-- Short Role -->
     <h3>Full Stack Web Developer | Backend Enthusiast</h3>
@@ -36,64 +37,191 @@
         Skilled in MERN stack, databases, and DevOps practices, with hands-on experience building scalable web applications.
         Passionate about contributing to innovative digital payment solutions and building secure, efficient fintech systems.
     </p>
+    <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="resume.pdf" class="btn">Download Resume</a>
+    </div>
+    </div>
+
+    <div class="hero-image"><img src="profile.jpg" alt="Pranyush Jha" class="profile-img"></div>
 
 </section>
-
 <!-- About -->
 <section id="about">
     <h2>About Me</h2>
-    <p class="about-text">
-        I am a B.Tech Computer Science student with a strong interest in backend development, system design, and machine learning.
-        I enjoy building real-world applications that solve practical problems, such as IoT-based systems, automation tools, and data-driven platforms.
-        
-        I have hands-on experience working with technologies like Python, Node.js, MySQL, and MongoDB, and I am comfortable developing REST APIs and scalable backend systems.
-        My projects include a Smart Waste Management System, a QR-based Attendance System, and a Machine Learning-based Tire Optimization system.
-        
-        I am passionate about writing clean, efficient code and continuously improving my problem-solving skills through data structures and algorithms.
-        Currently, I am seeking opportunities to apply my skills in real-world environments and grow as a software engineer.
-    </p>
-</section>
 
+    <div class="about-text">
+
+        <p>
+            I'm a B.Tech Computer Science student passionate about backend development and building scalable web applications.
+        </p>
+
+        <p>
+            I enjoy creating real-world projects using the MERN stack, REST APIs, cloud technologies, and modern development practices.
+        </p>
+
+        <p>
+            Currently, I'm looking for opportunities where I can contribute, learn from experienced developers, and grow as a software engineer.
+        </p>
+
+    </div>
+
+    <div class="about-highlights">
+        <div>🎓 B.Tech CSE</div>
+        <div>💻 Backend-Focused Full Stack</div>
+        <div>⚡ MERN Stack</div>
+        <div>🧠 Problem Solver</div>
+    </div>
+</section>
+<!-- Skills -->
 <!-- Skills -->
 <section id="skills">
     <h2>Skills</h2>
-    <div class="skills-container">
-        <span>Python</span>
-        <span>C++</span>
-        <span>JavaScript</span>
-        <span>React</span>
-        <span>Node.js</span>
-        <span>MySQL</span>
-        <span>MongoDB</span>
-        <span>Docker</span>
+
+    <div class="skills-grid">
+
+        <div class="skill-category">
+            <h3>Frontend</h3>
+
+            <div class="skill-items">
+                <span>🌐 HTML</span>
+                <span>🎨 CSS</span>
+                <span>🟨 JavaScript</span>
+                <span>⚛ React</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Backend</h3>
+
+            <div class="skill-items">
+                <span>🟢 Node.js</span>
+                <span>🚀 Express</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Database</h3>
+
+            <div class="skill-items">
+                <span>🍃 MongoDB</span>
+                <span>🐬 MySQL</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Programming</h3>
+
+            <div class="skill-items">
+                <span>🐍 Python</span>
+                <span>💻 C++</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Tools</h3>
+
+            <div class="skill-items">
+                <span>🐳 Docker</span>
+                <span>🔧 Git</span>
+                <span>⚡ VS Code</span>
+            </div>
+        </div>
+
     </div>
+
 </section>
+<!-- ================= Projects ================= -->
+
 <section id="projects">
+
     <h2>Projects</h2>
 
-    <!-- Project 1 -->
-    <a href="https://github.com/pranushjha/Smart-waste-management" target="_blank" class="project-link">
-        <div class="project">
-            <h3>Smart Waste Management System</h3>
-            <p>IoT-based system using sensors and route optimization.</p>
-        </div>
-    </a>
+    <div class="projects-container">
 
-    <!-- Project 2 -->
-    <a href="https://github.com/pranushjha/QR--attendence--system" target="_blank" class="project-link">
-        <div class="project">
-            <h3>QR Attendance System</h3>
-            <p>Secure QR-based attendance tracking system.</p>
-        </div>
-    </a>
+        <!-- Project 1 -->
 
-    <!-- Project 3 -->
-    <a href="https://github.com/pranushjha/Tyre-Pressure-Optimization" target="_blank" class="project-link">
-        <div class="project">
-            <h3>Tire Pressure ML System</h3>
-            <p>Machine learning model to predict optimal tire pressure.</p>
-        </div>
-    </a>
+        <a href="https://github.com/pranushjha/Smart-waste-management"
+           target="_blank"
+           class="project-link">
+
+            <div class="project">
+
+                <h3>Smart Waste Management</h3>
+
+                <p>
+                    IoT-based waste monitoring system using sensors
+                    and route optimization.
+                </p>
+                
+
+                <div class="project-tech">
+                    <span>JavaScript</span>
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                    <span>Arduino</span>
+                    <span>ESP8266</span>
+                    <span>IoT</span>
+                </div>
+
+            </div>
+
+        </a>
+
+        <!-- Project 2 -->
+
+        <a href="https://github.com/pranushjha/QR--attendence--system"
+           target="_blank"
+           class="project-link">
+
+            <div class="project">
+
+                <h3>QR Attendance System</h3>
+
+                <p>
+                    Secure QR attendance tracking with admin
+                    management.
+                </p>
+                <div class="project-tech">
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                    <span>MongoDB</span>
+                    <span>QR Code</span>
+                </div>
+
+            </div>
+            
+
+        </a>
+
+        <!-- Project 3 -->
+
+        <a href="https://github.com/pranushjha/Tyre-Pressure-Optimization"
+           target="_blank"
+           class="project-link">
+
+            <div class="project">
+
+                <h3>Tyre Pressure ML</h3>
+
+                <p>
+                    Machine learning model to predict
+                    optimal tyre pressure.
+                </p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>Scikit-learn</span>
+                    <span>Machine Learning</span>
+                </div>
+
+            </div>
+
+        </a>
+
+    </div>
 
 </section>
 
