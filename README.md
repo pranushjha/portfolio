@@ -37,6 +37,9 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 - GitHub: https://github.com/pranushjha
 - LeetCode: https://leetcode.com/u/pranyushjha/
 
+## Live Website
+https://portfolio.vercel.app
+
 ---
 
 ⭐ If you like this project, give it a star!
