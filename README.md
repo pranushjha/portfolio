@@ -3,7 +3,7 @@
 This is my personal portfolio website showcasing my projects, skills, and experience in backend development, machine learning, and full-stack web development.
 
 ## 🔥 Live Website
-👉 (Add your Vercel link here after deployment)
+👉 https://portfolio-sand-ten-ve577xfx23.vercel.app/
 
 ## 🛠️ Tech Stack
 - HTML5
